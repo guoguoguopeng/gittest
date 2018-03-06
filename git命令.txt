@@ -4,3 +4,11 @@ git config --global user.email "your email"
 git  init  将当前目录变为git 管理的仓库
 -----------git 提交------------
 git add 文件名称
+git commit -m "描述这次提交的变动信息"
+
+-----------git log--------------
+git log  查看提交历史，以便回退到那个版本
+git reflog  查看命令历史，以便确定回到未来的那个版本
+
+-------------git版本回退----------
+git reset --hard 版本号（HEAD^  多一个^为提前一个版本，如果过多则用数字表示，比如HEAD~100）
