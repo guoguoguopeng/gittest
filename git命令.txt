@@ -1,0 +1,6 @@
+git  status  查看git 当前状态
+git config --global user.name "yourname" //表明这台机器上所有的git仓库都是使用这个配置
+git config --global user.email "your email"
+git  init  将当前目录变为git 管理的仓库
+-----------git 提交------------
+git add 文件名称
